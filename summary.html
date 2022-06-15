@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="ru" class="page">
+<head>
+     <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="theme-color" content="#111111">
+
+   <title>Отправка резюме</title>
+   <link rel="stylesheet" href="css/vendor.css">
+   <link rel="stylesheet" href="css/summary.css">
+   <script defer src="js/burger.js"></script>
+</head>
+<body>
+   <header class="header">
+   <div class="container">
+      <div class="header__section">
+         <a href="index.html" class="header__logo">
+            <img src="img/logo/logo.png" alt="">
+            <p>Game <br>
+            studio</p>
+         </a>
+         <ul class="header__navigation">
+            <a href="about.html" class="link link__one">О нас</a>
+            <a href="game.html" class="link link__two">Игры</a>
+            <a href="career.html" class="link link__three">Карьера</a>
+            <a href="news.html" class="link link__four">Новости</a>
+            <a href="contant.html" class="link link__five">Контакты</a>
+         </ul>
+         <a href="support.html" class="btn">Поддержка</a>
+         <div class="burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+         </div>
+         <div class="burger__menu">
+            <div class="burger__container">
+               <div class="burger__navigation">
+                  <a href="about.html" class="link link__one">О нас</a>
+                  <a href="game.html" class="link link__two">Игры</a>
+                  <a href="career.html" class="link link__three">Карьера</a>
+                  <a href="news.html" class="link link__four">Новости</a>
+                  <a href="contant.html" class="link link__five">Контакты</a>
+            </div>
+           <div class="burger__right">
+              <p>Напиши, мы ответим в течении минуты!</p>
+               <a href="support.html" class="btn">Поддержка</a>
+           </div>
+         </div>
+         </div>
+      </div>
+   </div>
+</header>
+   <main class="main">
+       <section class="section">
+            <div class="container">
+                <div class="summary">
+                    <h1>Отправь резюме нам</h1>
+                    <p>Ты должен быть уверенным!</p>
+                    <div class="summary__block">
+                        <form action="http:localhost:3001/registration" class="form" method="POST" enctype="multipart/form-data">
+                            <div class="data">
+                                <label class="form__label">
+                                    <input class="input input-name" type="text" data-validate-field="name" name="Имя" placeholder="Имя" required>
+                                    <div class="line"></div>
+                                </label>
+                                <label class="form__label">
+                                    <input class="input input-phone" type="tel" data-validate-field="phone" name="Телефон" placeholder="Телефон" required>
+                                    <div class="line"></div>
+                                </label>
+                                <label class="form__label">
+                                    <input class="input input-email" type="email" data-validate-field="email" name="Email" placeholder="E-mail" required>
+                                    <div class="line"></div>
+                                </label>
+                            </div>
+                            <label class="form__label">
+                                <textarea class="textarea" name="Сообщение" id="" cols="30" rows="1" placeholder="О себе" required></textarea>
+                                <div class="line"></div>
+                            </label>
+                            <div class="form__data">
+                                <input class="input" type="file" name="file[]" multiple id="myfile">
+                                <button class="button">Отправить</button>
+                                <div></div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+       </section>
+   </main>
+   <footer class="footer">
+   <div class="container">
+      <div class="footer__container">
+         <div class="block__img">
+            <p>Мы тут</p>
+            <div class="img__a">
+               <a href=""><img class="img" src="img/section/footer/1.png" alt=""></a>
+               <a href=""><img class="img" src="img/section/footer/2.svg" alt=""></a>
+               <a href=""><img class="img" src="img/section/footer/3.svg" alt=""></a>
+            </div>
+         </div>
+         <hr>
+         <div class="footer__section">
+            <div class="logo">
+               <img src="img/logo/logo.png" alt="">
+               <p>Game<br> studio</p>
+            </div>
+            <ul class="footer__navigation">
+               <a href="about.html" class="link link__one">О нас</a>
+               <a href="game.html" class="link link__two">Игры</a>
+               <a href="careen.html" class="link link__three">Карьера</a>
+               <a href="news.html" class="link link__four">Новости</a>
+               <a href="contant.html" class="link link__five">Контакты</a>
+            </ul>
+            <a href="support.html" class="btn">Поддержка</a>
+         </div>
+         <div class="footer__social">
+            <p>©2013-2022 все права защищены</p>
+            <div class="social__network">
+               <a href=""><img src="img/section/footer/cib_vk.svg" alt=""></a>
+               <a href=""><img src="img/section/footer/insta.svg" alt=""></a>
+               <a href=""><img src="img/section/footer/telegram.svg" alt=""></a>
+               <a href=""><img src="img/section/footer/twiter.svg" alt=""></a>
+            </div>
+         </div>
+      </div>
+      <div class="footer__container-phone">
+         <div class="block__img">
+            <p>Мы тут</p>
+            <div class="img__a">
+               <a href=""><img class="img" src="img/section/footer/1.png" alt=""></a>
+               <a href=""><img class="img" src="img/section/footer/2.svg" alt=""></a>
+               <a href=""><img class="img" src="img/section/footer/3.svg" alt=""></a>
+            </div>
+         </div>
+         <hr>
+         <div class="footer__section">
+            <div class="footer__section-left">
+               <div class="logo">
+                  <img src="../img/logo/logo.png" alt="">
+                  <p>Game<br> studio</p>
+               </div>
+               <ul class="footer__navigation">
+                  <a href="about.html" class="link link__one">О нас</a>
+                  <a href="game.html" class="link link__two">Игры</a>
+                  <a href="career.html" class="link link__three">Карьера</a>
+                  <a href="news.html" class="link link__four">Новости</a>
+                  <a href="contant.html" class="link link__five">Контакты</a>
+               </ul>
+            </div>
+            <div class="footer__section-right">
+               <a href="support.html" class="btn">Поддержка</a>
+               <p>©2013-2022 все права защищены</p>
+               <div class="social__network">
+                  <a href=""><img src="img/section/footer/cib_vk.svg" alt=""></a>
+                  <a href=""><img src="img/section/footer/insta.svg" alt=""></a>
+                  <a href=""><img src="img/section/footer/telegram.svg" alt=""></a>
+                  <a href=""><img src="img/section/footer/twiter.svg" alt=""></a>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</footer>
+</body>
+</html>

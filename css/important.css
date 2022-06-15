@@ -1,0 +1,100 @@
+h1 {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 56px;
+  line-height: 135.4%;
+  color: #000000;
+}
+
+p {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 142.9%;
+  color: #000000;
+}
+
+h2 {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 55px;
+  color: #000000;
+}
+
+.section:nth-child(1) {
+  padding-top: 0px;
+}
+
+.section {
+  width: 100%;
+  padding-top: 120px;
+}
+
+.section:nth-child(4) {
+  padding-top: 36px;
+}
+
+.section:nth-child(8) {
+  padding-bottom: 120px;
+}
+
+.btn {
+  padding: 11px 40px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#FE9E46), to(#FFD74A));
+  background: -o-linear-gradient(top, #FE9E46 0%, #FFD74A 100%);
+  background: linear-gradient(180deg, #FE9E46 0%, #FFD74A 100%);
+  -webkit-box-shadow: 1px 1px 2px #FEC148;
+  box-shadow: 1px 1px 2px #FEC148;
+  border-radius: 8px;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 135.4%;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.btn:hover {
+  -webkit-box-shadow: 1px 1px 5px #FEC148;
+  box-shadow: 1px 1px 5px #FEC148;
+  -webkit-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  transition: all 500ms ease;
+}
+
+.btn:focus {
+  font-size: 18px;
+  color: #dbdbdb;
+  -webkit-box-shadow: 1px 1px 5px #fe9148;
+  box-shadow: 1px 1px 5px #fe9148;
+  -webkit-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  transition: all 500ms ease;
+}
+
+.section__container .container .block__h1 h1 {
+  width: 1000px;
+  height: 152px;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 76px;
+  line-height: 135.4%;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.news__company .card__new:hover {
+  cursor: pointer;
+  -webkit-box-shadow: -1px 0px 7px 2px rgba(0, 0, 0, 0.25);
+  box-shadow: -1px 0px 7px 2px rgba(0, 0, 0, 0.25);
+  -webkit-transition: all 600ms;
+  -o-transition: all 600ms;
+  transition: all 600ms;
+}
+/*# sourceMappingURL=important.css.map */
