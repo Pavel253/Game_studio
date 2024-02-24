@@ -1,6 +1,6 @@
 # Three-site-portfolio
 
-Сайт визитка Game studio 
+Корпоративный сайт Game studio 
 
 Технологии:
   -Html Css
