@@ -1,4 +1,4 @@
-# Three-site-portfolio
+# Game studio
 
 Корпоративный сайт Game studio 
 
